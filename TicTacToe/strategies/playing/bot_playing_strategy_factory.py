@@ -1,7 +1,7 @@
 from TicTacToe.models.difficulty_level import DifficultyLevel
-from easy_bot_playing_strategy import EasyBotPlayingStrategy
-from medium_bot_playing_strategy import MediumBotPlayingStrategy
 from hard_bot_playing_strategy import HardBotPlayingStrategy
+from medium_bot_playing_strategy import MediumBotPlayingStrategy
+from random_playing_strategy import EasyBotPlayingStrategy
 
 
 class BotPlayingStrategyFactory:

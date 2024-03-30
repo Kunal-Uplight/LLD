@@ -1,3 +1,7 @@
-class Symbol:
-    def __init__(self, char):
-        self.char = char
+from enum import Enum
+
+
+class Symbol(Enum):
+    X = "X"
+    O = "O" # noqa
+

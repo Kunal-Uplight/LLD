@@ -1,4 +1,4 @@
-from bot_playing_strategy import BotPlayingStrategy
+from playing_strategy import BotPlayingStrategy
 
 
 class HardBotPlayingStrategy(BotPlayingStrategy):

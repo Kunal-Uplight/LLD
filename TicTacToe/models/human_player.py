@@ -1,6 +1,8 @@
-from player import Player
+from TicTacToe.models.board import Board
+from TicTacToe.models.cell import Cell
+from TicTacToe.models.player import Player
 from TicTacToe.models.symbol import Symbol
-from user import User
+from TicTacToe.models.user import User
 
 
 class HumanPlayer(Player):
@@ -8,6 +10,8 @@ class HumanPlayer(Player):
         super().__init__(symbol)
         self.user = user
 
-    def play(self):
+    def make_move(self, board: Board) -> Cell:
         # Implementation for human player's play method
-        pass
+        row = int(input("Enter row: "))
+        col = int(input("Enter col: "))
+        return Cell(row, col, self.symbol)
