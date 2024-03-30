@@ -1,4 +1,4 @@
-# client code for tic tac toe game
+# Client code for tic tac toe game
 
 from TicTacToe.models.bot_player import BotPlayer
 from TicTacToe.models.game import Game
